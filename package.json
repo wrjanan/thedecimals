@@ -1,0 +1,16 @@
+{
+  "name": "thedecimals",
+  "version": "1.0.1",
+  "description": "js package module for the decimals NFT",
+  "main": "index.js",
+  "repository":"https://github.com/wrjanan/thedecimals",
+  "scripts": {
+    "test": "node index.test.js",
+    "build": "tsc && ts-npm-lint --fix-typings"
+  },
+  "author": "Janan",
+  "license": "ISC",
+  "dependencies": {
+    "keccak": "^3.0.2"
+  }
+}
