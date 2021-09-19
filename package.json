@@ -1,9 +1,13 @@
 {
   "name": "thedecimals",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "js package module for the decimals NFT",
   "main": "index.js",
-  "repository":"https://github.com/wrjanan/thedecimals",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wrjanan/thedecimals"
+  },
+  "keywords": ["thedecimals", "decimals"],  
   "scripts": {
     "test": "node index.test.js",
     "build": "tsc && ts-npm-lint --fix-typings"
